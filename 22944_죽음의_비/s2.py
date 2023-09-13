@@ -56,7 +56,6 @@ def bfs(x, y):
                         new_hp -= 1
                 # 체력이 없다면 넘어가자
                 if new_hp == 0:
-
                     continue
                 # 체력이
                 if visited[nx][ny] < new_hp:
