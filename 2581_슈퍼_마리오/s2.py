@@ -48,3 +48,5 @@ for i in arr:
             break
 
 print(answer)
+
+# 맞았습니다
