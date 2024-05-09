@@ -19,5 +19,4 @@ while True:
     if cnt == n:
         print(result)
         break
-
     result += 1
