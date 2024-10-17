@@ -48,8 +48,8 @@ def bfs(x, y):
             if 0 <= nx < r and 0 <= ny < c and not visited[nx][ny] and not field[nx][ny] == '#':
                 visited[nx][ny] = 1
                 queue.append((nx, ny))
-                # 양의 수를 체크
 
+    # 양과 늑대 수 체크 후 초기화
     if o_cnt > v_cnt:
         v_cnt = 0
     if o_cnt <= v_cnt:
